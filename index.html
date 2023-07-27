@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=[device-width], initial-scale=1.0" />
+    <title>iMovies</title>
+
+    <!-- CSS  -->
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- GOOGLE FONTS-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Font Awesome -->
+    <script
+      defer
+      src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"
+    ></script>
+  </head>
+
+  <body>
+    <!------ HEADER ------->
+
+    <section class="header">
+      <nav>
+        <a href="index.html"><img src="images/video-player.png" alt="logo" /></a>
+        <div class="nav-links" id="nav-links">
+          <i class="nav-icons fa fa-times" onclick="hideMenu()"></i>
+
+          <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="about.html">ABOUT</a></li>
+            <li><a href="reviews.html">REVIEWS</a></li>
+            <li><a href="contact.html">CONTACT</a></li>
+          </ul>
+        </div>
+        <i class="nav-icons fa fa-bars" onclick="showMenu()"></i>
+      </nav>
+
+      <div class="text-box">
+        <h1>iMovies</h1>
+        <p>
+          iMovies is free all the time, but there are few ads on video player page.
+        </p>
+        <a href="#" class="hero-btn">Visit Us To Know More</a>
+      </div>
+    </section>
+
+    <!----- seasons----->
+
+    <section class="seasons">
+      <h1>Recommendation</h1>
+      <div class="row">
+        <div class="seasons-col">
+          <h3>Popular</h3>
+          <p>
+             1. Schindler's List<br>
+             2.12 Years a Slave<br>
+             3.The Pianist<br>
+             4.Hotel Rwanda<br>
+             5.1984
+          </p>
+        </div>
+
+        <div class="seasons-col">
+          <h3>Most Watched</h3>
+          <p>
+             1.Amistad<br>
+             2.The Color Purple<br>
+             3.The Great Dictator<br>
+             4.A Time to Kill<br>
+             5.The Boy in the Striped Pyjamas
+          </p>
+        </div>
+
+        <div class="seasons-col">
+          <h3>More Movies</h3>
+          <p>
+           1. In the Name of the Father<br>
+           2.Milk<br>
+           3.American History X<br>
+           4.The Killing Fields<br>
+           5.The Stoning of Soraya M.
+
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- movies -->
+    <section class="movies">
+      <h1>New Release</h1>
+
+      <div class="row">
+        <div class="movies-col">
+          <img src="images/barbie.jpg" alt="" />
+          <div class="layer">
+            <h3>Barbie</h3>
+          </div>
+        </div>
+
+        <div class="movies-col">
+          <img src="images/spider.jpg" alt="" />
+          <div class="layer">
+            <h3>Spiderman</h3>
+          </div>
+        </div>
+
+        <div class="movies-col">
+          <img src="images/the flash.jpg" alt="" />
+          <div class="layer">
+            <h3>The Flash</h3>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!----- More movies  ----->
+
+    <section class="More_Movies">
+      <h1>More Movies</h1>
+
+      <div class="row">
+        <div class="More_Movies-col">
+          <img src="images/mermaid.jpg" alt="" />
+          <h3>The Little Mermaid</h3>
+        </div>
+        <div class="More_Movies-col">
+          <img src="images/elemental.jpg" alt="" />
+          <h3>Elementals</h3>
+        </div>
+        <div class="More_Movies-col">
+          <img src="images/The league.jpg" alt="" />
+          <h3>The league</h3>
+        </div>
+      </div>
+    </section>
+
+    <!-----Developer Testimonials----->
+    <section class="testimonials">
+      <h1>Developer Testimonials</h1>
+      <p>
+        Hear what our amazing developers have to say about their experiences, successes, and struggles on our platform, and how it has transformed their coding journey.
+      </p>
+      <div class="row">
+        <div class="testimonials-col">
+          <img src="images/face-id.png" alt="" />
+          <div class="">
+            <p>
+              As a developer working alongside the brilliant team at our company, I have been continuously inspired by the passion for innovation and problem-solving. 
+            </p>
+            <h3>Emily Johnson</h3>
+            <i class="star-icon fa fa-star" aria-hidden="true"></i>
+            <i class="star-icon fa fa-star" aria-hidden="true"></i>
+            <i class="star-icon fa fa-star" aria-hidden="true"></i>
+            <i class="star-icon fa fa-star" aria-hidden="true"></i>
+          </div>
+        </div>
+        <div class="testimonials-col">
+          <img src="images/head.png" alt="" />
+          <div class="">
+            <p>
+              Joining this development team has been a game-changer for my career. The level of expertise and dedication shown by my fellow developers is unparalleled. I've had the opportunity to work on challenging projects, honing my skills and learning from some of the best minds in the industry. 
+            </p>
+            <h3>Michael Chen</h3>
+            <i class="star-icon fa fa-star" aria-hidden="true"></i>
+            <i class="star-icon fa fa-star" aria-hidden="true"></i>
+            <i class="star-icon fa fa-star" aria-hidden="true"></i>
+            <i class="star-icon fa fa-star" aria-hidden="true"></i>
+            <i class="star-icon fa fa-star-half" aria-hidden="true"></i>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA -->
+    <section class="cta">
+      <h1>
+       Get in touch with our team for inquiries, assistance,<br> or any questions you may have..
+      </h1>
+      <a href="#" class="hero-btn">CONTACT US</a>
+    </section>
+
+    <!-----FOOTER----->
+    <section class="footer">
+      <div class="icons">
+        <a href="https://mobile.facebook.com/?_rdc=1&_rdr"><i class="icons-items fab fa-facebook-f"></i></a>
+        <a href="https://twitter.com/login"><i class="icons-items fab fa-twitter"></i></a>
+        <a href="https://www.instagram.com/?hl=en"><i class="icons-items fab fa-instagram"></i></a>
+        <a href="https://web.telegram.org/"><i class="icons-items fab fa-telegram"></i></a>
+      </div>
+      
+    </section>
+
+    <script src="index.js"></script>
+  </body>
+</html>
